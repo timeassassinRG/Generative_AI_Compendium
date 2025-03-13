@@ -1,4 +1,3 @@
-```md
 # Generative AI Compendium
 
 Welcome to the **Generative AI Compendium**! This repository contains a series of courses designed to guide you through the essentials of AI, data science, and cutting-edge generative models. Below you will find an overview of each course. You can click on each course folder (or reference) for in-depth materials, hands-on projects, and detailed explanations.
