@@ -56,7 +56,6 @@ token_indices = torch.tensor([2, 45, 134, 523], dtype=torch.long)
 # Get their embeddings
 embedded_tokens = embedding(token_indices)  # Shape: (4, 300)
 ```
----
 
 ## Working with Datasets, Tokenizers, and Vocabularies
 
@@ -127,6 +126,7 @@ class TextDataset(Dataset):
 dataset = TextDataset(["Hello world", "PyTorch is great"], [0, 1], vocab_dict)
 loader = DataLoader(dataset, batch_size=2, shuffle=True)
 ```
+
 With this setup, you can pass the batches to a neural network for **text classification**.
 
 ---
@@ -139,18 +139,8 @@ While embeddings encode the meaning of tokens, they do not carry information abo
 Transformers use *attention* mechanisms that are *order-invariant* by design. We need to provide positional context so that the model can differentiate “dog bites man” from “man bites dog.”
 
 ### Sinusoidal Form
-The \( i \)-th dimension of the positional encoding for position \( pos \) can be computed as:
 
-$$
-\[
-\text{PE}(pos, 2i) = \sin \left( \frac{pos}{10000^{2i/d_\text{model}}} \right),
-\]
-\[
-\text{PE}(pos, 2i+1) = \cos \left( \frac{pos}{10000^{2i/d_\text{model}}} \right),
-\]
-$$
-
-where \( d_\text{model} \) is the dimensionality of the embedding.
+TODO
 
 ### PyTorch Implementation Example
 ```python
