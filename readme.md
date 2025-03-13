@@ -50,7 +50,7 @@ Welcome to the **Generative AI Compendium**! This repository contains a series o
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/<your-username>/Generative-AI-Compendium.git
+   git clone https://github.com/timeassassinRG/Generative-AI-Compendium.git
    cd Generative-AI-Compendium
    ```
 2. **Explore Each Course Folder**  
@@ -71,4 +71,3 @@ This content is provided for educational purposes
 ---
 
 **Happy Learning and Building!**
-```
