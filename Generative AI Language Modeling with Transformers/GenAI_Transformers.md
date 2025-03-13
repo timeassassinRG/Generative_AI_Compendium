@@ -384,4 +384,3 @@ In this module, we covered:
 - Steps to construct translation models from scratch, leveraging both encoder-decoder architectures and PyTorch’s built-in `nn.Transformer` for machine translation tasks.
 
 By understanding these concepts and their PyTorch implementations, you will be well-positioned to build sophisticated NLP models that leverage the power of transformers, whether for text classification, translation, or broader language modeling tasks.
-```
