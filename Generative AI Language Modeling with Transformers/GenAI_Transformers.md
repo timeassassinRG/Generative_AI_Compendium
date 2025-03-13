@@ -55,7 +55,7 @@ token_indices = torch.tensor([2, 45, 134, 523], dtype=torch.long)
 
 # Get their embeddings
 embedded_tokens = embedding(token_indices)  # Shape: (4, 300)
-
+```
 ---
 
 ## Working with Datasets, Tokenizers, and Vocabularies
@@ -141,12 +141,14 @@ Transformers use *attention* mechanisms that are *order-invariant* by design. We
 ### Sinusoidal Form
 The \( i \)-th dimension of the positional encoding for position \( pos \) can be computed as:
 
+$$
 \[
 \text{PE}(pos, 2i) = \sin \left( \frac{pos}{10000^{2i/d_\text{model}}} \right),
 \]
 \[
 \text{PE}(pos, 2i+1) = \cos \left( \frac{pos}{10000^{2i/d_\text{model}}} \right),
 \]
+$$
 
 where \( d_\text{model} \) is the dimensionality of the embedding.
 
