@@ -6,31 +6,31 @@ Welcome to the **Generative AI Compendium**! This repository contains a series o
 
 ## Table of Contents
 
-7. **Course 1: Data Analysis with Python**  
+1. **Course 1: Data Analysis with Python**  
    *Overview:* Data exploration, cleaning, and visualization, focusing on pandas, NumPy, and data manipulation workflows.
 
-8. **Course 2: Machine Learning with Python**  
+2. **Course 2: Machine Learning with Python**  
    *Overview:* Traditional machine learning algorithms, scikit-learn workflows, feature engineering, and evaluation methods.
 
-9. **Course 3: Introduction to Deep Learning & Neural Networks with Keras** 
+3. **Course 3: Introduction to Deep Learning & Neural Networks with Keras** 
    *Overview:* Foundations of neural networks, building basic models using Keras, and introducing concepts like backpropagation.
 
-10. **Course 4: Generative AI and LLMs: Architecture and Data Preparation**  
+4. **Course 4: Generative AI and LLMs: Architecture and Data Preparation**  
     *Overview:* Key architectural components of large language models and best practices for data collection, cleaning, and preprocessing.
 
-11. **Course 5: Gen AI Foundational Models for NLP & Language Understanding**  
+5. **Course 5: Gen AI Foundational Models for NLP & Language Understanding**  
     *Overview:* Transformer-based architectures (BERT, GPT) and their role in NLP tasks like text classification, summarization, and QA.
 
-12. **Course 6: Generative AI Language Modeling with Transformers**  
+6. **Course 6: Generative AI Language Modeling with Transformers**  
     *Overview:* Focus on positional encoding, attention mechanisms, transformer architectures, and hands-on PyTorch implementations.
 
-13. **Course 7: Generative AI Engineering and Fine-Tuning Transformers**  
+7. **Course 7: Generative AI Engineering and Fine-Tuning Transformers**  
     *Overview:* Techniques to adapt pre-trained models (e.g., GPT, BERT) to specific use cases through fine-tuning, optimization, and hyperparameter tuning.
 
-14. **Course 8: Generative AI Advance Fine-Tuning for LLMs**  
+7. **Course 8: Generative AI Advance Fine-Tuning for LLMs**  
     *Overview:* Advanced strategies for large language model fine-tuning, including prompt-based adaptation, parameter-efficient methods (LoRA), and domain-specific customizations.
 
-15. **Course 8 Fundamentals of AI Agents Using RAG and LangChain**  
+8. **Course 8 Fundamentals of AI Agents Using RAG and LangChain**  
     *Overview:* Introduction to Retrieval-Augmented Generation (RAG), fundamentals of building AI agents that integrate knowledge retrieval with generative models, and practical workflows using LangChain.
 
 16. **Course 9: Project: Generative AI Applications with RAG and LangChain**  
